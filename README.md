@@ -12,6 +12,9 @@ This library will allow you to create, connect, and perform a variety of SQL sta
 - [Database Setup](https://github.com/santiescobares/mysql-wrapper/wiki/Database-Setup)
 - [Table Creation](https://github.com/santiescobares/mysql-wrapper/wiki/Table-Creation)
 - [Statements](https://github.com/santiescobares/mysql-wrapper/wiki/Statements)
+# Contributions
+If you encounter with some bugs or problems while using this lib, feel free to open an [Issue](https://github.com/santiescobares/mysql-wrapper/issues) describing your problem.  
+You may fork this project and open a pull request for improvements, addons, and any stuff that helps this project to grow and be more efficient.
 # License
 © 2025 Santiago Escobares  
 mysql-wrapper is under MIT license. See [LICENSE](https://github.com/santiescobares/mysql-wrapper/blob/main/LICENSE)
