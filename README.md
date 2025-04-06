@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/santiescobares/mysql-wrapper.svg)](https://jitpack.io/#santiescobares/mysql-wrapper)
 # MySQL Wrapper (mysql-wrapper)
 Simple and lightweight MySQL database wrapper for Java made to simplify basic operations avoiding the boilerplate of handling SQL objects on your own.  
 This library will allow you to create, connect, and perform a variety of SQL statements following an object-building style while taking advantage of the resource optimizations provided by HikariCP.
