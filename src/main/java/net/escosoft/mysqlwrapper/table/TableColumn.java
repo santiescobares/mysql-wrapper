@@ -12,7 +12,7 @@ public final class TableColumn {
     private final TableType type;
 
     private String[] typeData;
-    private boolean notNull;
+    private boolean Null, notNull;
     private String defaultValue;
 
     private TableColumn(String name, TableType type) {
@@ -38,6 +38,9 @@ public final class TableColumn {
                     .append(joiner)
                     .append(")");
         }
+        if (this.Null) {
+            builder.append(" NULL");
+        }
         if (this.notNull) {
             builder.append(" NOT NULL");
         }
@@ -62,6 +65,14 @@ public final class TableColumn {
             Preconditions.checkNonNull(typeData, "Type data can't be null.");
             Preconditions.checkLength(typeData, 1, "Type data can't be empty.");
             this.column.typeData = typeData;
+            return this;
+        }
+
+        /**
+         * Adds NULL string to current column building-up.
+         */
+        public Builder Null() {
+            this.column.Null = true;
             return this;
         }
 
