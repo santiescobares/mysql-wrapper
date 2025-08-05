@@ -6,7 +6,7 @@
 
     <groupId>net.escosoft</groupId>
     <artifactId>mysql-wrapper</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <description>Simple and lightweight MySQL database wrapper.</description>
