@@ -68,6 +68,10 @@ public final class QueryResult {
         return this.get(column, byte.class);
     }
 
+    public boolean getBoolean(TableColumn column) {
+        return this.get(column, boolean.class);
+    }
+
     public Timestamp getTimestamp(TableColumn column) {
         return this.get(column, Timestamp.class);
     }
